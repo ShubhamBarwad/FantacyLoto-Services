@@ -79,16 +79,16 @@ CREATE DATABASE loginservice;
 Then individually run these commands in the SQL console
 ```
 INSERT INTO users (id, username, PASSWORD)
-VALUES (1,"shubham", "abc12345");
+VALUES (1,"shubham@abc.com", "abc12345");
 
 INSERT INTO users (id, username, PASSWORD)
-VALUES (2,"suyash", "xyz12345");
+VALUES (2,"suyash@abc.com", "xyz12345");
 
 INSERT INTO users (id, username, PASSWORD)
-VALUES (3,"vikrant", "qpr12345");
+VALUES (3,"vikrant@abc.com", "qpr12345");
 
 INSERT INTO users (id, username, PASSWORD)
-VALUES (4,"akshay", "abc56789");
+VALUES (4,"akshay@abc.com", "abc56789");
 ```
 
 Then run the program as Java Application on server port 8080 (It will automatically run on this port number). Once both the servers are up and running, open the following link in Chrome:
